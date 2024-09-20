@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .container{
+
+            display: flex;
+            gap: 10px;
+            flex-direction: column-reverse;
+            justify-content: flex-end;
+            background-color: yellow;
+            height: 150px;
+       }
+
+        .item{
+            background-color: tomato;
+        }
+
+
+        .esquerda{
+
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: start;
+            background-color: green;
+            
+        }
+
+        .direita{
+            display: flex;
+            background-color: green;
+            justify-content: start;
+        }
+
+        .cima{
+            display: flex;
+            background-color: green;
+            flex-direction: column;
+
+        }
+
+        .baixo{
+            display: flex;
+            background-color: green;
+            flex-direction: column-reverse;
+
+        }
+
+        .personagens{
+
+            padding: 10px;
+            text-align: center;
+            background-color: greenyellow;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="item">
+            itemA
+        </div>
+        <div class="item">
+            itemB
+        </div>
+    </div>
+
+    <div>
+
+        <h2>Esquerda para a direita</h2>
+
+        <div class="esquerda">
+
+            <div class="personagens">p1</div>
+            <div class="personagens">p2</div>
+            <div class="personagens">p3</div>
+            <div class="personagens">p4</div>
+            <div class="personagens">p5</div>
+        
+        </div>
+    </div>
+
+    <div>
+
+        <h2>Direita para Esqueda</h2>
+
+        <div class="direita">
+
+            <div class="personagens">p1</div>
+            <div class="personagens">p2</div>
+            <div class="personagens">p3</div>
+            <div class="personagens">p4</div>
+            <div class="personagens">p5</div>
+        
+        </div>
+    </div>
+
+    <div>
+        <h2>Cima para baixo</h2>
+
+        <div class="cima">
+
+            <div class="personagens">p1</div>
+            <div class="personagens">p2</div>
+            <div class="personagens">p3</div>
+            <div class="personagens">p4</div>
+            <div class="personagens">p5</div>
+        
+        </div>
+    </div>
+
+    <div>
+        <h2>Baixo para cima</h2>
+
+        <div class="baixo">
+
+            <div class="personagens">p1</div>
+            <div class="personagens">p2</div>
+            <div class="personagens">p3</div>
+            <div class="personagens">p4</div>
+            <div class="personagens">p5</div>
+        
+        </div>
+    </div>
+
+
+    
+
+
+</body>
+</html>
